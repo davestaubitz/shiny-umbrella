@@ -10,7 +10,7 @@ jobs:
   trigger-scheduler:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger EasyCron Scheduler
+      - name: Trigger Tikk Scheduler
         run: |
-          curl -X POST "https://ta-01k98d160fn9p4aaszgcmfjr4z-5173.wo-pk3m9d6kplfhetx6jnp0wi5g3.w.modal.host/api/functions/cronScheduler"
+          curl -X POST "https://ta-01k9aa4pxzqmzawf5g0wphcfks-5173.wo-liueqrkil6bddt9p9enz1zp0g.w.modal.host/api/functions/cronScheduler"
         continue-on-error: true
